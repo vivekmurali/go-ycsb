@@ -33,7 +33,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/boltdb/bolt"
+	//"github.com/boltdb/bolt"
+	bolt "go.etcd.io/bbolt"
 	"github.com/magiconair/properties"
 	"github.com/pingcap/go-ycsb/pkg/prop"
 	"github.com/pingcap/go-ycsb/pkg/util"
